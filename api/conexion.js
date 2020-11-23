@@ -18,8 +18,21 @@
 const mysql = require("mysql");
 // Coloca aquí tus credenciales
 module.exports = mysql.createPool({
+    host: '46.252.181.108',
+    user: 'u1z1nhvkenixkzcv',
+    password: '6lVr74JEzYz5jA2TfUBa',
+    database: 'bbum7bqfspvdnrd0xqzd',
+});
+
+
+/*
+const mysql = require("mysql");
+// Coloca aquí tus credenciales
+module.exports = mysql.createPool({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
 });
+
+*/
